@@ -19,10 +19,14 @@ int main() {
     result = a - b;
     break;
   case 3:
-    // code3
+    result = a * b;
     break;
   case 4:
-    // code4
+    if (b == 0) {
+      std::cout << "Ділення на нуль неможливе!";
+      return 1;
+    }
+    result = a / b;
     break;
   }
   std::cout << "Результат = " << result;
