@@ -2,7 +2,7 @@
 
 int main() {
   int a, b, op;
-  double result;
+  double result = 0;
 
   std::cout << "Введіть перше число\n";
   std::cin >> a;
