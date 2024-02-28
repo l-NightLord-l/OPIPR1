@@ -9,10 +9,10 @@ int main() {
 
   switch(op) {
     case 1:
-      result = a * b;
+      result = a + b;
     break;
     case 2:
-      //code2
+      result = a - b;
     break;
     case 3:
       //code3
